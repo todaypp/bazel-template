@@ -352,4 +352,19 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,nextjs,node,sass,react,visualstudiocode,webstorm+all,windows,yarn
 
+### Bazel ###
+
+*~
+bazel-*
+.bazelrc
+.idea
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+target/
+
 ### Custom ###
