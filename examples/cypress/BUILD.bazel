@@ -1,5 +1,7 @@
-# load("@yarn//@bazel/cypress:index.bzl", "cypress_web_test")
-# load("@yarn//@bazel/typescript:index.bzl", "ts_project")
+load("@yarn//@bazel/cypress:index.bzl", "cypress_web_test")
+load("@yarn//@bazel/typescript:index.bzl", "ts_project")
+
+package(default_visibility = ["//visibility:public"])
 
 # You must create a cypress plugin in order to boot a server to serve your application.
 # It can be written as a javascript file or in typescript using ts_project.
@@ -37,7 +39,7 @@ ts_project(
 
 cypress_web_test(
     # The name of your test target
-    name = "test",
+    name = "tests",
     srcs = [
         # Load javascript test files directly as sources
         "world.spec.js",

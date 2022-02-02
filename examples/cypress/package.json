@@ -5,8 +5,8 @@
   "scripts": {
     "clean": "rimraf dist node_modules",
     "install:clean": "rimraf yarn.lock && yarn clean && yarn install",
-    "test": "bazel test //...",
-    "test:watch": "ibazel test //..."
+    "test": "bazel test //:all",
+    "test:watch": "ibazel test //:all"
   },
   "dependencies": {
     "express": "4.17.2"

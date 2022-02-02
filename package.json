@@ -1,6 +1,7 @@
 {
   "name": "bazel-template",
   "version": "0.0.0",
+  "description": "Bazel Template with Examples, E2E Tests and Bootstraps for multiple platforms (React.js, Nest.js, Cypress.io, Typescript, Python, Java, Kotlin, etc.)",
   "private": true,
   "repository": "git@github.com:todaypp/bazel-template.git",
   "author": "Sumin Son <clvswft03@gmail.com>",
