@@ -1,14 +1,19 @@
 {
-  "name": "adw",
+  "name": "bazel-template",
   "version": "0.0.0",
-  "repository": "git@github.com:todaypp/adw.git",
+  "private": true,
+  "repository": "git@github.com:todaypp/bazel-template.git",
   "author": "Sumin Son <clvswft03@gmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
-    "start": "ibazel run //:start"
+    "clean": "rimraf dist node_modules",
+    "clean:all": "./scripts/clean_nested_workspaces.sh",
+    "install:clean": "rimraf yarn.lock && yarn clean && yarn install",
+    "start": "ibazel run //:start",
+    "test": "echo 'ERROR: test is not implemented yet' && exit 1"
   },
   "devDependencies": {
-    "@bazel/ibazel": "0.15.10"
+    "@bazel/ibazel": "0.15.10",
+    "rimraf": "3.0.2"
   }
 }
