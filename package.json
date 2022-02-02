@@ -1,0 +1,8 @@
+{
+  "name": "adw",
+  "version": "0.0.0",
+  "repository": "git@github.com:todaypp/adw.git",
+  "author": "Sumin Son <clvswft03@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
