@@ -14,7 +14,7 @@
     "test": "echo 'ERROR: test is not implemented yet' && exit 1"
   },
   "devDependencies": {
-    "@bazel/ibazel": "0.15.10",
+    "@bazel/ibazel": "0.16.2",
     "rimraf": "3.0.2"
   }
 }
