@@ -1,0 +1,201 @@
+repo_name: todaypp/bazel-template
+report_id: 5d989771e2da598d5b802c9434489d6d
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T13:12:58+00:00'
+requested_by: todaypp
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/package.json
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 09:40:34.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 4.5.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/yarn.lock
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 09:40:34.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/yarn.lock
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 09:40:34.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 14.18.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 00:30:20.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 7.5.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/yarn.lock
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 01:28:13.000000000 Z
+- name: Bazel
+  description: Build and test software of any size, quickly and reliably
+  website_url: http://bazel.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2697/default_85ab1999fe6310acaeece180990057d2e9ebfb3a.jpg
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/package.json
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 11:10:51.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 9.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/yarn.lock
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 09:40:34.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/bazel-template
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/.yarnrc
+  detection_source: ".yarnrc"
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 00:30:20.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/package.json
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 01:28:13.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/todaypp/bazel-template
+  detection_source: Repo Metadata
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 17.0.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/yarn.lock
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 09:40:34.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/yarn.lock
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 09:40:34.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/todaypp/bazel-template/blob/main/examples/cypress/yarn.lock
+  detection_source: examples/cypress/package.json
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-02-02 09:40:34.000000000 Z
